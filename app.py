@@ -43,5 +43,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=8000)
 #{"Glucose": 110,"Cholesterol": 190,"Hemoglobin": 13.5,"Platelets": 250000,"White Blood Cells": 7000,"Red Blood Cells": 5.2,"Hematocrit": 42,"Mean Corpuscular Volume": 90,"Mean Corpuscular Hemoglobin": 30,"Mean Corpuscular Hemoglobin Concentration": 33,"Triglycerides": 150,"HbA1c": 5.8,"LDL Cholesterol": 120,"HDL Cholesterol": 50,"ALT": 25,"AST": 20,"Heart Rate": 72,"Creatinine": 1.0,"Troponin": 0.01,"C-reactive Protein": 3.0}
